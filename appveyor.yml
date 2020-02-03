@@ -10,7 +10,7 @@ install:
   - ps: Install-Product node $env:nodejs_version
   # install modules
   - npm install
-
+  - gem install rake
 # Post-install test scripts.
 test_script:
   # Output useful info for debugging.
